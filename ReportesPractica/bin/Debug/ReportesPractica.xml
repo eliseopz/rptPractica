@@ -1,0 +1,211 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ReportesPractica
+</name>
+</assembly>
+<members>
+<member name="T:ReportesPractica.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ReportesPractica.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ReportesPractica.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSet.countriesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSet.departmentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSet.dependentsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSet.employeesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSet.jobsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSet.locationsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSet.regionsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSet.countriesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSet.departmentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSet.dependentsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSet.employeesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSet.jobsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSet.locationsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSet.regionsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSet.countriesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSet.departmentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSet.dependentsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSet.employeesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSet.jobsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSet.locationsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSet.regionsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSetTableAdapters.countriesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSetTableAdapters.departmentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSetTableAdapters.dependentsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSetTableAdapters.employeesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSetTableAdapters.jobsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSetTableAdapters.locationsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSetTableAdapters.regionsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:ReportesPractica.BdHRDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(ReportesPractica.BdHRDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:ReportesPractica.BdHRDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(ReportesPractica.BdHRDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:ReportesPractica.BdHRDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(ReportesPractica.BdHRDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:ReportesPractica.BdHRDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:ReportesPractica.BdHRDataSetTableAdapters.TableAdapterManager.UpdateAll(ReportesPractica.BdHRDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:ReportesPractica.BdHRDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
